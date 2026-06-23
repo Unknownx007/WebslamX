@@ -31,13 +31,13 @@ WebSlamX is a high-performance, command-line multi-stage security auditing and p
 
 # ⚙️ Core Architectural Pipeline
 WebSlamX drives your security assessment operations sequentially across 7 distinct operational phases:
-**Phase 1:** Passive Intelligence HarvestingAggregates subdomain metrics, index registries, historic zone DNS intercepts, and exposed target user credentials via subfinder, amass, dnsrecon, and theHarvester.
-**Phase 2:** Active Network Port ScanningPerforms high-speed port validation mapping via native low-level sockets with adaptive fallback to deep version banner probes via nmap.
-**Phase 3:** Web Stack Technology FingerprintingQueries web server response metrics, security fields, and cookie signatures via whatweb and native response scraping routines.
-**Phase 4:** Workspace Surface MappingDeploys dirsearch combined with multi-threaded dictionary checks over modern standard paths to filter dynamic variables, authentication gateways, and file uploads.
-**Phase 5:** Automated Exploit Injection CoreActively queries parameter links using browser-masked desktop headers, running rapid single-quote error reflections alongside structured multi-threaded sqlmap and nikto passes.
-**Phase 6:** Transport Encryption Cipher AuditEvaluates target cryptographic configurations for protocol anomalies (SSLv2/v3, TLS 1.0/1.1) and broken cipher arrays using testssl.sh and sslyze.
-**Phase 7:** Forensic Master Aggregation EngineIngests all separate, temporary sub-module log streams, removes duplicate data, filters systemic telemetry noise, and generates machine-readable JSON states and Markdown dashboards.
+1. **Phase 1:** Passive Intelligence HarvestingAggregates subdomain metrics, index registries, historic zone DNS intercepts, and exposed target user credentials via subfinder, amass, dnsrecon, and theHarvester.
+2. **Phase 2:** Active Network Port ScanningPerforms high-speed port validation mapping via native low-level sockets with adaptive fallback to deep version banner probes via nmap.
+3. **Phase 3:** Web Stack Technology FingerprintingQueries web server response metrics, security fields, and cookie signatures via whatweb and native response scraping routines.
+4. **Phase 4:** Workspace Surface MappingDeploys dirsearch combined with multi-threaded dictionary checks over modern standard paths to filter dynamic variables, authentication gateways, and file uploads.
+5. **Phase 5:** Automated Exploit Injection CoreActively queries parameter links using browser-masked desktop headers, running rapid single-quote error reflections alongside structured multi-threaded sqlmap and nikto passes.
+6. **Phase 6:** Transport Encryption Cipher AuditEvaluates target cryptographic configurations for protocol anomalies (SSLv2/v3, TLS 1.0/1.1) and broken cipher arrays using testssl.sh and sslyze.
+7. **Phase 7:** Forensic Master Aggregation EngineIngests all separate, temporary sub-module log streams, removes duplicate data, filters systemic telemetry noise, and generates machine-readable JSON states and Markdown dashboards.
 
 ## 🛠️ Installation & Dependency Configuration
 
