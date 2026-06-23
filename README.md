@@ -66,8 +66,8 @@ sudo ./venv/bin/python3 main.py
 
 # 📂 Output Reporting Architecture
 Upon final execution, the system clears out temporary module scratch text sheets and provides two production-grade outputs:
-**Markdown Dashboard (<domain>_final_report.md):**A beautiful, human-readable vulnerability assessment log card mapping threat classifications (Critical, High, Medium, Low) and clean, categorized application topology maps.
-**Machine JSON State (<domain>_security_report.json):**A structured, raw JSON database tree recording target asset metadata node parameters for long-term storage or programmatic integration.
+1. **Markdown Dashboard (<domain>_final_report.md):** A beautiful, human-readable vulnerability assessment log card mapping threat classifications (Critical, High, Medium, Low) and clean, categorized application topology maps.
+2. **Machine JSON State (<domain>_security_report.json):** A structured, raw JSON database tree recording target asset metadata node parameters for long-term storage or programmatic integration.
 
 ### ⚖️ Legal & Ethical Usage Notice
 This software development repository card is built solely for authorized security auditing, defensive gap analysis, educational research, and infrastructure assessment compliance. Executing active scanning sequences against unauthorized production targets without explicit, written mutual contractual permission is strictly prohibited. The framework author assumes zero legal accountability for environmental system downtime or programmatic misuse.
