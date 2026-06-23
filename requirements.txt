@@ -1,0 +1,4 @@
+requests==2.32.3
+click==8.1.8
+aiosqlite==0.20.0
+urllib3==2.2.1
